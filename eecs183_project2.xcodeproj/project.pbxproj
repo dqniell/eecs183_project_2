@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83674BF52C9BB7ED00DC8BE5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83674BF42C9BB7ED00DC8BE5 /* main.cpp */; };
+		83674C002C9BB83100DC8BE5 /* rps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83674BFE2C9BB83100DC8BE5 /* rps.cpp */; };
+		83674C032C9BB84700DC8BE5 /* start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83674C012C9BB84700DC8BE5 /* start.cpp */; };
+		83674C052C9BB86E00DC8BE5 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83674C042C9BB86E00DC8BE5 /* test.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		83674BF12C9BB7ED00DC8BE5 /* eecs183_project2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = eecs183_project2; sourceTree = BUILT_PRODUCTS_DIR; };
-		83674BF42C9BB7ED00DC8BE5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		83674BFE2C9BB83100DC8BE5 /* rps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rps.cpp; sourceTree = "<group>"; };
+		83674C012C9BB84700DC8BE5 /* start.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = start.cpp; sourceTree = "<group>"; };
+		83674C042C9BB86E00DC8BE5 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		83674BF32C9BB7ED00DC8BE5 /* eecs183_project2 */ = {
 			isa = PBXGroup;
 			children = (
-				83674BF42C9BB7ED00DC8BE5 /* main.cpp */,
+				83674BFE2C9BB83100DC8BE5 /* rps.cpp */,
+				83674C012C9BB84700DC8BE5 /* start.cpp */,
+				83674C042C9BB86E00DC8BE5 /* test.cpp */,
 			);
 			path = eecs183_project2;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83674BF52C9BB7ED00DC8BE5 /* main.cpp in Sources */,
+				83674C052C9BB86E00DC8BE5 /* test.cpp in Sources */,
+				83674C032C9BB84700DC8BE5 /* start.cpp in Sources */,
+				83674C002C9BB83100DC8BE5 /* rps.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
